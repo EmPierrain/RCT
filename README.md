@@ -28,17 +28,10 @@
 </div>
 
 
-
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
+    <li><a href="#about-the-project">About The Project</a></li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
@@ -47,65 +40,43 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+This project compile some tools for LEGAL Red Teaming in a single Docker container. 
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+Disclaimer: I am not responsible for any legal issue you may encounter. This tool is only for educational purposes and should never be used in any illegal situation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To run this project, you need Docker and its components installed. [Here is a link to a guide how to install docker easily](https://docs.docker.com/engine/install/ubuntu/).
 
 ### Installation
+
+Everything is almost ready to be run. You just need to built the solution and run it with Docker commands as follow:
 
 1. Clone the repo
    ```sh
    git clone https://github.com/EmPierrain/RTC.git
    ```
+   
 2. Build the docker container
    ```sh
    docker build -t empierrain:rtc .
    ```
+   
 3. Run the container
    ```sh
    docker compose up -d
@@ -122,22 +93,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## License
 
 Distributed under the GNU GPLv3 License. See `LICENSE.txt` for more information.
@@ -150,16 +105,6 @@ Distributed under the GNU GPLv3 License. See `LICENSE.txt` for more information.
 Project Link: [https://github.com/EmPierrain/RTC](https://github.com/EmPierrain/RTC)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/EmPierrain/RTC?style=for-the-badge
