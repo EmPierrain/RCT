@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  jam:
+    image: empierrain:rtc
+    container_name: hacklab
+    restart: unless-stopped
+    tty: true
